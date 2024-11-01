@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134336545380",
+    "project_id": "app20---screen-morroring-tv",
+    "storage_bucket": "app20---screen-morroring-tv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134336545380:android:7eb1a8150e4be55159d571",
+        "android_client_info": {
+          "package_name": "com.screenmirrorapp.casttotv.screenmirroring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134336545380-0n1f9ukvcc71ofbi54ruhr9oejtndoko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy9s492SZoGycz6tQD-bsxERY2OrrioWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134336545380-0n1f9ukvcc71ofbi54ruhr9oejtndoko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

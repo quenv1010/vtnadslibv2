@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="icon_image_view" type="id" />
+    <item name="title_text_view" type="id" />
+    <item name="advertiser_textView" type="id" />
+    <item name="body_text_view" type="id" />
+    <item name="media_view_container" type="id" />
+    <item name="cta_button" type="id" />
+</resources>

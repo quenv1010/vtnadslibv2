@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemoteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <FrameLayout
+            android:id="@+id/native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <include layout="@layout/ads_native_shimer" />
+        </FrameLayout>
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/tv_check_inter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Inter"
+            android:padding="@dimen/_10sdp"
+            android:background="@drawable/bg_border_white"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tv_check_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Reward"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_border_white"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tv_check_native"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Native"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_border_white"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_check_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Banner"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_border_white"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

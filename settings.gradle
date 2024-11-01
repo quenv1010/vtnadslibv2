@@ -1,0 +1,4 @@
+rootProject.name = "VtnAdsLibrary"
+include ':app'
+include ':ads'
+include ':sdk'
