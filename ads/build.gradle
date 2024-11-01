@@ -1,5 +1,9 @@
-apply plugin: 'com.android.library'
-
+//apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
+}
 
 android {
     compileSdk 34
@@ -85,4 +89,17 @@ dependencies {
     implementation 'androidx.preference:preference:1.2.1'
     implementation 'org.greenrobot:eventbus:3.3.1'
 
+}
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication){
+                from components.release
+
+                groupId='com.github.heaven.vtn-ads-v2'
+                artifactId = 'ads'
+                version = '1.0.0'
+            }
+        }
+    }
 }
